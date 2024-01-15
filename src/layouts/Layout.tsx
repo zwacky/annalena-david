@@ -21,7 +21,7 @@ export default function Layout({ children }: Props) {
         />
         <link
           rel="icon"
-          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍❤️‍👨</text></svg>"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩‍❤️‍👨</text></svg>"
         />
       </Head>
 
@@ -32,7 +32,7 @@ export default function Layout({ children }: Props) {
           style={{ backgroundImage: "url(./ad-love.jpg)" }}
         >
           <div className="absolute bottom-20 z-10 w-full flex items-center flex-col text-white">
-            <h1 className="text-5xl uppercase font-bold pb-2 border-b border-white border-opacity-50 mb-2">
+            <h1 className="text-5xl uppercase font-bold pb-2 border-b border-white border-opacity-50 mb-2 text-center">
               Annalena & David
             </h1>
             <div className="">24.08.2024</div>

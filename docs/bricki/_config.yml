@@ -1,3 +1,0 @@
-include:
-  - _next
-  - _next/static/chunks/pages/_*.js
