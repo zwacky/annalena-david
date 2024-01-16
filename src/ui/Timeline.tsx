@@ -50,8 +50,10 @@ const Timeline: React.FC<Props> = ({ items }) => {
                 )}
               </div>
               <div className="flex-grow">
-                {!noTimeSuffix && (
-                  <div className="text-sm text-gray-500sdf">{time} Uhr</div>
+                {time && (
+                  <div className="text-sm text-gray-500sdf">
+                    {time} {noTimeSuffix && <>Uhr</>}
+                  </div>
                 )}
                 <h3 className="mb-3 font-bold text-gray-800 text-2xl">
                   {header}
