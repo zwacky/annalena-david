@@ -15,6 +15,7 @@ const timelineItems = [
   },
   {
     time: "Uhrzeit offen",
+    noTimeSuffix: true,
     header: "Freie Trauung",
     text: "Im Garten hinter dem Gulfhof",
     icon: "👰‍♀️🤵‍♂️"
@@ -51,6 +52,7 @@ const timelineItems = [
   },
   {
     time: "",
+    noTimeSuffix: true,
     header: "Open End!",
     text: "",
     icon: "🎉"
@@ -251,16 +253,16 @@ export default function Index() {
               <section className="mt-4">
                 <p className="font-bold">Parkplätze</p>
 
-                <p>Parkplatze sind auf dem Geländer vorhanden.</p>
+                <p>Parkplatze sind auf dem Gelände vorhanden.</p>
               </section>
 
               <section className="mt-4">
                 <p className="font-bold">Hotels in der Nähe:</p>
 
                 <p>- Friesen Hotel Jever Doppelzimmer ab 105€ die Nacht inkl. Frühstück</p>
-                <p>- Park Hotel Jever ab 150€ die Nacht inkl Frühstück</p>
+                <p>- Park Hotel Jever ab 150€ die Nacht inkl. Frühstück</p>
                 <br />
-                <p>(Preise stand Dezember 2023)</p>
+                <p>(Preisstand Dezember 2023)</p>
               </section>
             </div>
           </div>

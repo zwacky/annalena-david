@@ -2,7 +2,13 @@ import classNames from "classnames";
 import React from "react";
 
 interface Props {
-  items: { header: string; text: string; time: string; icon: any }[];
+  items: {
+    header: string;
+    text: string;
+    time: string;
+    noTimeSuffix?: boolean;
+    icon: any;
+  }[];
 }
 const Timeline: React.FC<Props> = ({ items }) => {
   return (
@@ -12,7 +18,7 @@ const Timeline: React.FC<Props> = ({ items }) => {
         style={{ left: "50%", height: "calc(100% - 44rem)" }}
       ></div>
 
-      {items.map(({ time, icon, header, text }, index) => (
+      {items.map(({ time, noTimeSuffix, icon, header, text }, index) => (
         <div
           key={time}
           className={classNames(
@@ -44,7 +50,7 @@ const Timeline: React.FC<Props> = ({ items }) => {
                 )}
               </div>
               <div className="flex-grow">
-                {time && (
+                {!noTimeSuffix && (
                   <div className="text-sm text-gray-500sdf">{time} Uhr</div>
                 )}
                 <h3 className="mb-3 font-bold text-gray-800 text-2xl">
