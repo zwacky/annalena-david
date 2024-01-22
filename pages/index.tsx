@@ -63,7 +63,8 @@ const faqs = [
   {
     id: 1,
     question: "Gibt es einen Dresscode?",
-    answer: "Jeder soll sich wohlfühlen. Nur bitte verzichtet auf die Farbe rot."
+    answer:
+      "Jeder soll sich wohlfühlen. Nur bitte verzichtet auf die Farbe rot."
   },
   {
     id: 2,
@@ -239,6 +240,12 @@ export default function Index() {
                   Person "berappen". Für diejenigen unter Euch, die lieber in
                   einem Hotel übernachten, sprechen wir gerne Empfehlungen aus!
                 </p>
+                <br />
+                <p>
+                  <strong>Wichtig:</strong> Bzgl. der Zimmer Kapazitäten meldet
+                  ihr euch bitte telefonisch bei uns unter 017672792903. Wir
+                  gehen nach dem Motto "first comes - first serves"
+                </p>
               </section>
 
               <section className="mt-4">
@@ -259,7 +266,10 @@ export default function Index() {
               <section className="mt-4">
                 <p className="font-bold">Hotels in der Nähe:</p>
 
-                <p>- Friesen Hotel Jever Doppelzimmer ab 105€ die Nacht inkl. Frühstück</p>
+                <p>
+                  - Friesen Hotel Jever Doppelzimmer ab 105€ die Nacht inkl.
+                  Frühstück
+                </p>
                 <p>- Park Hotel Jever ab 150€ die Nacht inkl. Frühstück</p>
                 <br />
                 <p>(Preisstand Dezember 2023)</p>
