@@ -227,24 +227,27 @@ export default function Index() {
               <section className="mt-4">
                 <p className="font-bold">Schlafmöglichkeiten</p>
                 <p>
-                  Es gibt eine begrenzte Anzahl an Schlafplätzen direkt in der
-                  Location. Insgesamt stehen 14 moderne Apartments mit 33
-                  Schlafplätzen zur Verfügung. Für Frühstück wird von uns
-                  gesorgt, aber es handelt sich um KEIN Hotel und nur am Samstag
-                  gibt es Catering.
+                  <s>
+                    Es gibt eine begrenzte Anzahl an Schlafplätzen direkt in der
+                    Location. Insgesamt stehen 14 moderne Apartments mit 33
+                    Schlafplätzen zur Verfügung. Für Frühstück wird von uns
+                    gesorgt, aber es handelt sich um KEIN Hotel und nur am
+                    Samstag gibt es Catering.
+                  </s>
+                </p>
+                <p>
+                  <s>
+                    Dieser einmalige Service richtet sich an die
+                    "Nachtschwärmer" unter Euch. Für die Übernachtung müsst ihr
+                    €35 pro Nacht und Person "berappen". Für diejenigen unter
+                    Euch, die lieber in einem Hotel übernachten, sprechen wir
+                    gerne Empfehlungen aus!
+                  </s>
                 </p>
                 <br />
                 <p>
-                  Dieser einmalige Service richtet sich an die "Nachtschwärmer"
-                  unter Euch. Für die Übernachtung müsst ihr €35 pro Nacht und
-                  Person "berappen". Für diejenigen unter Euch, die lieber in
-                  einem Hotel übernachten, sprechen wir gerne Empfehlungen aus!
-                </p>
-                <br />
-                <p>
-                  <strong>Wichtig:</strong> Bzgl. der Zimmer Kapazitäten meldet
-                  ihr euch bitte telefonisch bei uns unter 017672792903. Wir
-                  gehen nach dem Motto "first comes - first serves"
+                  <strong>Update:</strong> Die Schlafplätze beim Gulfhof
+                  Fahnhusen sind vergeben.
                 </p>
               </section>
 
