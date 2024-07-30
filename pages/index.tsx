@@ -8,13 +8,13 @@ import { HeartIcon } from "@heroicons/react/24/outline";
 
 const timelineItems = [
   {
-    time: "13:00",
-    header: "Türöffnung Gulfhof Fahnhusen für alle Gäste",
+    time: "12:30",
+    header: "Türöffnung & Empfang der Gäste",
     text: "Anreise für Gäste, welche im Gulfhof Fahnhusen schlafen: ab 23.08.24 13:00 Uhr möglich.",
     icon: "✨"
   },
   {
-    time: "Uhrzeit offen",
+    time: "13:30",
     noTimeSuffix: true,
     header: "Freie Trauung",
     text: "Im Garten hinter dem Gulfhof",
